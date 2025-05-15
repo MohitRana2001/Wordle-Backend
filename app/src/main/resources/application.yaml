@@ -6,7 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: update # dev-only; switch to 'validate' in prod & use Flyway
+      ddl-auto: update
     properties:
       hibernate:
         format_sql: true
